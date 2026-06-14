@@ -1,2 +1,5 @@
 .venv/
 .env
+notebooks/node_modules
+notebooks/package.json
+notebooks/package-lock.json
