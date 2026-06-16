@@ -38,11 +38,25 @@ platform = st.selectbox("Plataforma:", ['Instagram', 'Facebook', 'LinkedIn', 'Bl
 tone = st.selectbox("Tom:", ['Normal', 'Informativo', 'Inspirador', 'Urgente', 'Informal'])
 length = st.selectbox("Tamanho:", ['Curto', 'Médio', 'Longo'])
 audience = st.selectbox("Público-alvo:", ['Geral', 'Jovens adultos', 'Famílias', 'Idosos', 'Adolescentes'])
-cta = st.checkbox("Incluir CTA")
+cta = st.text_input("Call to Action:", placeholder="Ex: Clique para aproveitar a promoção!")
 hashtags = st.checkbox("Retornar Hashtags")
 keywords = st.text_area("Palavras-chave (SEO):", placeholder="Ex: bem-estar, medicina preventiva...")
 
 if st.button("Gerar conteúdo"):
+    cta_text = (
+        f"Incluir uma chamada para ação clara utilizando o seguinte texto: {cta}."
+        if cta
+        else "Não inclua uma chamada para ação."
+    )
+
+    hashtags_text = (
+        f"Retorne ao final do texto hashtags relevantes." if hashtags else "Não inclua hashtags."
+    )
+
+    seo_text = (
+        f"- Palavras-chave que devem estar presentes nesse texto (para SEO): " + keywords if keywords else ""
+    )
+    
     prompt = f"""
         Escreva um texto com SEO otimizado sobre o tema '{topic}'.
         Retorne em sua resposta apenas o texto final.
@@ -50,9 +64,9 @@ if st.button("Gerar conteúdo"):
         - Tom: {tone}.
         - Público-alvo: {audience}.
         - Comprimento: {length}.
-        - {"Inclur uma chamada para ação clara." if cta else "Não inclua uma chamada para ação."}
-        - {"Retorne ao final do texto hashtags relevantes." if hashtags else "Não inclua hashtags."}
-        {"- Palavras-chave que devem estar presentes nesse texto (para SEO): " + keywords if keywords else ""}
+        - {cta_text}
+        - {hashtags_text}
+        {seo_text}
     """
 
     try:
