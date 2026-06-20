@@ -1,7 +1,10 @@
-2026-06-14 16:44:04.060 Uvicorn server started on 0.0.0.0:8501
+2026-06-20 20:56:38.941 Uvicorn server started on 0.0.0.0:8502
 
   You can now view your Streamlit app in your browser.
 
-  Local URL: http://localhost:8501
-  Network URL: http://192.168.0.71:8501
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.0.71:8502
 
+/home/jpmaida/Documents/git/AI-Expert-Academy/LLMs-e-Agentes-de-AI-para-Empresas-e-Neg-cios/notebooks/app02.py:5: DeprecationWarning: `langchain-community` is being sunset and is no longer actively maintained. See https://github.com/langchain-ai/langchain-community/issues/674 for details and migration guidance toward standalone integration packages.
+  from langchain_community.document_loaders import PyMuPDFLoader
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 55800.37it/s]
