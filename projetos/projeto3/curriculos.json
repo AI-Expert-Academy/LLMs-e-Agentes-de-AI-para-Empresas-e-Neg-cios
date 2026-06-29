@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Thomas A. Anderson",
+    "area": "Desenvolvimento",
+    "summary": "Profissional de tecnologia com 5 anos de experiência em desenvolvimento de software e análise de dados, buscando ingressar no curso de Pós-Graduação em Ciência de Dados e Inteligência Artificial",
+    "skills": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "React",
+      "Node.js",
+      "Django",
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL",
+      "Git",
+      "Docker",
+      "Jupyter Notebook",
+      "Power BI",
+      "AWS",
+      "Google Cloud Platform",
+      "Pandas",
+      "NumPy",
+      "Tableau"
+    ],
+    "education": "Bacharelado em Ciência da Computação pela Universidade de São Paulo (USP)",
+    "interview_questions": [
+      "Como você aborda a escalabilidade em aplicações web?",
+      "Pode nos dar um exemplo de como você aplicou machine learning em um projeto?",
+      "Como você garantiria a segurança dos dados em uma aplicação que lida com informações sensíveis?"
+    ],
+    "strengths": [
+      "Experiência em desenvolvimento de software e análise de dados",
+      "Conhecimento em tecnologias relevantes para a vaga",
+      "Certificações em áreas relacionadas à engenharia de software"
+    ],
+    "areas_for_development": [
+      "Experiência limitada em liderança de equipes",
+      "Necessidade de aprofundar conhecimentos em big data e inteligência artificial"
+    ],
+    "important_considerations": [
+      "Verificar a disponibilidade do candidato para trabalhar em equipe e colaborar com outros times",
+      "Avaliar a capacidade do candidato de aprender e se adaptar a novas tecnologias"
+    ],
+    "final_recommendations": "Recomendamos que o candidato seja convidado para uma entrevista para discutir melhor suas habilidades e experiências, e para avaliar sua compatibilidade com a cultura da empresa",
+    "score": 8.5
+  },
+  {
+    "name": "Ana Clara Santos",
+    "area": "Desenvolvimento",
+    "summary": "Desenvolvedora full stack com 4 anos de experiência em desenvolvimento de software, especializada em soluções web completas e com interesse em integrar inovação técnica com boas práticas de UX/UI",
+    "skills": [
+      "React",
+      "Vue.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Java (Spring Boot)",
+      "Python (Django)",
+      "PostgreSQL",
+      "Firebase",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "AWS (Lambda, RDS)",
+      "Jenkins",
+      "Jest",
+      "Cypress",
+      "Selenium",
+      "Figma",
+      "Postman",
+      "VS Code"
+    ],
+    "education": "Bacharelado em Sistemas de Informação pela Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) e Curso Técnico em Informática pela Escola Técnica Estadual do Rio de Janeiro (FAETEC)",
+    "interview_questions": [
+      "Como você aborda a refatoração de código legado para melhorar a manutenibilidade e documentação do sistema?",
+      "Pode descrever sua experiência com integração de microsserviços com Docker e Kubernetes?",
+      "Como você garante a escalabilidade e a performance das aplicações web que desenvolve?"
+    ],
+    "strengths": [
+      "Experiência em desenvolvimento de aplicações web escaláveis",
+      "Conhecimento em tecnologias front-end e back-end",
+      "Familiaridade com serviços de nuvem e versionamento de código",
+      "Capacidade de trabalhar em equipe e colaborar com times multidisciplinares"
+    ],
+    "areas_for_development": [
+      "Aprofundar conhecimentos em Power BI ou outras ferramentas de visualização de dados",
+      "Desenvolver habilidades em áreas como machine learning ou inteligência artificial"
+    ],
+    "important_considerations": [
+      "Verificar a experiência prática com frameworks como React, Node.js e Django",
+      "Avaliar a capacidade de trabalhar em ambientes ágeis (Scrum, Kanban)"
+    ],
+    "final_recommendations": "Recomendo seguir com a entrevista para discutir melhor as habilidades e experiências de Ana Clara Santos e avaliar seu alinhamento com as necessidades da vaga",
+    "score": 8.5
+  },
+  {
+    "name": "Alex Costa",
+    "area": "Desenvolvimento",
+    "summary": "Profissional multidisciplinar com 5 anos de experiência em design, desenvolvimento front-end e estratégias de marketing digital, buscando aprimorar habilidades em design de interfaces complexas e explorar soluções criativas.",
+    "skills": [
+      "Figma",
+      "Adobe XD",
+      "Photoshop",
+      "Illustrator",
+      "Prototipagem Interativa",
+      "HTML/CSS",
+      "JavaScript (ES6+)",
+      "React.js",
+      "Vue.js",
+      "SASS",
+      "Node.js",
+      "Firebase",
+      "Google Analytics",
+      "SEO",
+      "WordPress",
+      "Shopify",
+      "Mailchimp",
+      "Git",
+      "Webpack",
+      "Jira",
+      "Zeplin",
+      "A/B Testing"
+    ],
+    "education": "Bacharelado em Design Digital pela Universidade Federal do Paraná (UFPR) e Curso Técnico em Marketing Digital pelo Instituto de Tecnologia e Design (ITEDE)",
+    "interview_questions": [
+      "Como você integra design e desenvolvimento em seus projetos?",
+      "Pode nos dar um exemplo de como você resolveu um problema complexo de usabilidade em um projeto?",
+      "De que forma você stays atualizado sobre as últimas tendências e tecnologias em design e desenvolvimento?"
+    ],
+    "strengths": [
+      "Experiência em design e desenvolvimento front-end",
+      "Conhecimento em ferramentas de design e desenvolvimento",
+      "Habilidades em resolução de problemas e pensamento criativo",
+      "Capacidade de trabalhar em equipe e colaborar com outros profissionais"
+    ],
+    "areas_for_development": [
+      "Aprofundar conhecimentos em back-end e desenvolvimento full stack",
+      "Melhorar habilidades em liderança e gerenciamento de projetos",
+      "Desenvolver habilidades em Power BI ou outras ferramentas de visualização de dados"
+    ],
+    "important_considerations": [
+      "Avaliar a capacidade do candidato de se adaptar a uma equipe de desenvolvimento full stack",
+      "Verificar a experiência do candidato em trabalhar com serviços de nuvem e ferramentas de versionamento de código"
+    ],
+    "final_recommendations": "O candidato apresenta uma boa combinação de habilidades em design e desenvolvimento front-end, mas é importante avaliar sua capacidade de se adaptar a uma equipe de desenvolvimento full stack e desenvolver habilidades em back-end. Recomenda-se realizar uma entrevista técnica para avaliar melhor suas habilidades e experiência.",
+    "score": 7.5
+  }
+]

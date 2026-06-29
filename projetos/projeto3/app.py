@@ -120,25 +120,26 @@ with col1:
   st.header("Triagem e Análise de Currículos")
   st.markdown("#### Vaga: {}".format(job["title"]))
 with col2:
-  uploaded_file = st.file_uploader("Envie um currículo em PDF", type=["pdf"], key=st.session_state.uploader_key)
+  uploaded_files = st.file_uploader("Envie um currículo em PDF", type=["pdf"], key=st.session_state.uploader_key, accept_multiple_files=True)
 
-if uploaded_file is not None:
+if uploaded_files is not None:
   with st.spinner("Analisando o currículo..."):
-    path = uploaded_file.name
-    with open(path, "wb") as f:
-      f.write(uploaded_file.read())
+    for file in uploaded_files:
+      path = file.name
+      with open(path, "wb") as f:
+        f.write(file.read())
 
-    output, res = process_cv(schema, job_details, prompt_template, prompt_score, llm, path)
-    structured_data = parse_res_llm(res, fields)
-    save_json_cv(structured_data, path_json=json_file, key_name="name")
+      output, res = process_cv(schema, job_details, prompt_template, prompt_score, llm, path)
+      structured_data = parse_res_llm(res, fields)
+      save_json_cv(structured_data, path_json=json_file, key_name="name")
 
-    st.success("Currículo analisado com sucesso!")
-    st.session_state.uploader_key = str(uuid.uuid4())
+      st.success(f"Currículo {path} analisado com sucesso!")
+      st.session_state.uploader_key = str(uuid.uuid4())
 
-  st.write(show_cv_result(structured_data))
+      st.write(show_cv_result(structured_data))
 
-  with st.expander("Ver dados estruturados (JSON)"):
-    st.json(structured_data)
+      with st.expander("Ver dados estruturados (JSON)"):
+        st.json(structured_data)
 
 if os.path.exists(json_file):
   st.subheader("Lista de currículos analisados", divider="gray")
